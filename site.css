@@ -1,0 +1,34 @@
+body {
+
+ max-width: 35em;
+ margin-right: auto;
+ margin-left: auto;
+
+ font-size: 20px;
+
+ font-family: Verdana, Verdana, Geneva, sans-serif;
+}
+
+code {
+  display: block;
+  margin: 1em;
+}
+
+.footer {
+  font-size: smaller;
+  border-top-style: dotted;
+  border-top-width: 2px;
+  border-top-color: gray;
+
+  margin-top: 2em;
+  padding-top: 1en;
+}
+
+.summary {
+  font-size: larger;
+}
+
+.tags {
+  font-size: smaller;
+}
+

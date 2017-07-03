@@ -1,0 +1,44 @@
+!!! 5
+%html{lang: "en-US"}
+
+  %head
+    %meta{charset: "UTF-8"}
+    %meta{name: "keyworkds", content: ""}
+
+    %title= title
+
+    %link{rel: "stylesheet", type: "text/css", href: "../site.css"}
+
+  %body
+    %header.header
+      %h1
+        %a.home-link{href: "https://hugoestr.github.io"}="|&gt;"
+        Hugo Estrada
+
+    %article.article
+      %header
+        %h2.title#title= title
+        #summary.summary= summary
+        #published-date.date= published_date
+
+      %section.content= content
+
+      %section.tags Tags: 
+        %span.tags= tags
+
+    .links Related links: 
+      .related-links= related_links
+    .links Previous links: 
+      .previous_links= previous_links
+    
+    %footer.footer
+      .about 
+        %a{href: "http://hugoestr.github.io"} About 
+        %p I am a software developer. I code in C#, Ruby, and many other languages. Currently learning Erlang.  I like poetry, museums, and ukuleles. I lead my life through the principles of dadaism and nonviolence.
+
+        %a{href: "http://hugoestr.github.io/feed.atom"} atom  
+        %a{href: "http://twitter.com/hugoestr/"}twitter  
+        %a{href: "http://github.com/hugoestr/"}github
+        
+        %p Lovingly crafted by hand with 
+          %a{href: "http://www.vim.org/"} Vim
